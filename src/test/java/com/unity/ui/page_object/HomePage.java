@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -14,6 +15,9 @@ public class HomePage extends BasePage {
     WebDriverWait wait = new WebDriverWait(driver, Const.timeOutInSecs);
 
     @FindBy(xpath="//*[contains(@id,'small-searchterms')]")
+    public WebElement searchBox;
+
+    @FindBy(how= How.ID, using="small-searchterms")
     public WebElement wb_inputSearch;
 
     @FindBy(xpath="//input[contains(@type,'submit')]")
@@ -31,9 +35,8 @@ public class HomePage extends BasePage {
     @FindBy(xpath="//div[contains(@class,'no-result')][contains(text(),'No')]")
     public WebElement wb_divNoResultText;
 
-    @FindBy(xpath="/*[contains(text(),'temporarily unavailable')]")
+    @FindBy(xpath="//*[contains(text(),'temporarily unavailable')]")
     public WebElement wb_divResourceUnavailableError;
-
 
     @FindBy(xpath="//*[contains(@id,'ui-id-1')]//span")
     public WebElement wb_spanSearchHintText;
@@ -53,16 +56,19 @@ public class HomePage extends BasePage {
     }
 
     public void enterSearchText(String inputString){
+        wb_inputSearch.clear();
         wb_inputSearch.sendKeys(inputString);
         wb_inputSearch.sendKeys(Keys.RETURN);
     }
 
     public void enterSearchTextViaEnter(String inputString){
+        wb_inputSearch.clear();
         wb_inputSearch.sendKeys(inputString);
         wb_inputSearch.sendKeys(Keys.RETURN);
     }
 
     public void enterSearchTextViaSearchButton(String inputString){
+        wb_inputSearch.clear();
         wb_inputSearch.sendKeys(inputString);
         this.clickSearchButton();
     }

@@ -123,13 +123,14 @@ public class BasicSearchTest extends BaseTest {
         assertTrue(uitesttool.isAlertPresent(driver));
     }
 
-    //Enter space or invalid character to test if the search function work fine, return no result
+    //Enter space or invalid character to test if the search function work fine, supposed to return no result warning message
     @Test
     public void TC010_InvalidCharacterInputSearchDestroyTest() throws Exception {
 
         for(int i=0; i< Const.InvalidCharacterInputString.length; i++){
             System.out.println("Enter "+Const.InvalidCharacterInputString[i]);
             homePage.enterSearchText(Const.InvalidCharacterInputString[i]);
+            Thread.sleep(500);
             int res = homePage.getSearchResultTitleList().size();
             if(res==0){
                 assertTrue(true);
@@ -251,28 +252,22 @@ public class BasicSearchTest extends BaseTest {
         }
     }
 
+    //Validate after search action, could go back to homepage and Search Box is be cleared
     @Test
     public void TC019_AfterSearchBeAbleToGoBackToHomePageTest() throws Exception {
 
         homePage.enterSearchText("HTC");
         assertTrue(homePage.getSearchResultTitleList().size()>=2);
+        Thread.sleep(500);
         driver.navigate().back();
+        Thread.sleep(500);
         driver.switchTo().frame(0);
 
         assertTrue(homePage.wb_h2HomePageTitle.isDisplayed());
     }
 
-    //Enter String more than 2000 characters will throw ResourceUnavailableError, should confirm with PO considered as a defects.
     @Test
-    public void TC020_DestroySearchTest() throws Exception {
-
-        String str = uitesttool.generateRandomString(5000);
-        homePage.enterSearchTextViaSearchButton(str);
-        assertFalse(homePage.wb_divResourceUnavailableError.isDisplayed());
-    }
-
-    @Test
-    public void TC021_MinimumLengthWarningSearchTest() throws Exception {
+    public void TC020_MinimumLengthWarningSearchTest() throws Exception {
 
         for(int i=0; i< Const.LessThanThreeCharInputString.length; i++){
             System.out.println("Enter "+Const.LessThanThreeCharInputString[i]);
@@ -285,6 +280,17 @@ public class BasicSearchTest extends BaseTest {
             }
         }
     }
+
+    //Enter String more than 2000 characters will throw ResourceUnavailableError, should confirm with PO considered as a defects.
+    @Test
+    public void TC021_DestroySearchTest() throws Exception {
+
+        String str = uitesttool.generateRandomString(5000);
+        homePage.enterSearchTextViaSearchButton(str);
+        assertFalse(homePage.wb_divResourceUnavailableError.isDisplayed());
+    }
+
+
 
 
     @AfterTest
