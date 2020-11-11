@@ -42,6 +42,6 @@ public class Const {
         ZIPCODE
     }
 
-    public final static String[] InvalidCharacterInputString = {"<>>", "{}*&", "+_)","%^&","@$#"};
+    public final static String[] InvalidCharacterInputString = {"<>45>", "{}*&", "+_)","%5^&","@$#"};
     public final static String[] LessThanThreeCharInputString = {"1", "12", "00",",",".","/","-"};
 }
