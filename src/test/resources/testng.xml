@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Upgrade Task" verbose="1" thread-count="1">
+<suite name="UI Search Task" verbose="1" thread-count="1">
     <test name="ui regression test" verbose="1" preserve-order="true" parallel="none" thread-count="1">
         <classes>
             <class name="com.unity.ui.test_cases.BasicSearchTest"/>
