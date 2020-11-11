@@ -8,11 +8,8 @@ public class Const {
     //Config data
     public static String browser_type = String.valueOf(browserConfig.CHROME);
     public static String base_url = "https://frontend.nopcommerce.com";
-    public static String base_Demo_url = "https://www.google.com";
     public static String chromeDriverPathMac = "src/test/resources/webdriver/chromedriver";
     public static String chromeDriverPathWin = "src/test/resources/webdriver/chromedriver.exe";
-    public static final int timeout = 5000;
-    public static final int interval = 500;
     public static final int waitTime = 30;
     public static final int timeOutInSecs = 90;
 
@@ -23,7 +20,6 @@ public class Const {
 
     public static final Map<String, String> ExpectCategoryHashMap = new HashMap<String, String>();
     static {
-        //HashMap<String, String> ExpectCategoryHashMap = new HashMap<String, String>();
         ExpectCategoryHashMap.put("Computers","Digital Storm");
         ExpectCategoryHashMap.put("Electronics","D5500");
         ExpectCategoryHashMap.put("Apparel", "Women T-Shirt");
@@ -46,6 +42,6 @@ public class Const {
         ZIPCODE
     }
 
-    public static String[] InvalidCharacterInputString = {"<>>", "{}*&", "+_)","%^&","@$#","1","12"};
-
+    public final static String[] InvalidCharacterInputString = {"<>>", "{}*&", "+_)","%^&","@$#"};
+    public final static String[] LessThanThreeCharInputString = {"1", "12", "00",",",".","/","-"};
 }
