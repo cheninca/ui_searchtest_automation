@@ -6,15 +6,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
 
     public static WebDriver driver;
 
-    public BaseTest() {
+    public BaseTest()  {
 
         String os = (System.getProperty("os.name"));
 
@@ -24,9 +27,6 @@ public class BaseTest {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--incognito");
-//        chromeOptions.addArguments("--kiosk");
-//        chromeOptions.addArguments("--whitelisted-ips");
         capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
         driver = new ChromeDriver(chromeOptions);
         Dimension d = new Dimension(1200,800);
