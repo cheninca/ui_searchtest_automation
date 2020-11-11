@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23e20f87-9f3a-493d-9891-0d15077f827e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/API Testing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/API Testing.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Continuous Integration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Course 1-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Course 1-2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Course Outline.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/PerfTest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/PerfTest.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Test-case-template-xls.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/TestNG.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/TestNG.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/jobhunting.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/sample-test-plan-template.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecvictor/calculator/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecvictor/testng/employee/EmpBusinessLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecvictor/testng/employee/EmployeeDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tempo/IShippingSlipService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tempo/MemberShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tempo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tempo/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tempo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/pairwise/PairwiseSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/rest/assured/o2o/PairwiseRestAssuredRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/rest/assured/o2o/ProductTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/rest/assured/o2o/RestAssuredUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/rest/assured/o2o/ecvicms/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/rest/assured/o2o/ecvicms/WPDemoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/api/rest/assured/o2o/twitter/TimelineTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/calculator/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/calculator/ExceptionNotThrownAssertionError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/calculator/ExceptionThrower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/calculator/ThrowableAssertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/calculator/ThrowableCaptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/helpers/DataHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/helpers/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/modules/SignInAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/modules/SignoutAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/pageobjects/AutomationHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/pageobjects/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/pageobjects/ContactusPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/pageobjects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/step_definitions/BlankStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/step_definitions/GoogleStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/step_definitions/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/step_definitions/RunCukesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/cucumber/step_definitions/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/classic/BasicAnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/classic/ConcordiaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/classic/GuruTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/classic/JusteatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/classic/RBCTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/modules/HomePageActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/modules/SubMenuActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/page_object/homePage/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/page_object/homePage/TopMenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/page_object/homePage/subMenu/GraduatePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/test_case/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/selenium/junit/page_object_design/test_case/ConcordiaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/testng/employee/DemoStoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/testng/employee/EmpBusinessLogicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/testng/employee/EmployeeDetailsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecvictor/testng/employee/TestngAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/anotation-suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/demo-store-suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/google.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/seleniumframework.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/jmeter/Google Testing Plan.jmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/TestData-seleniumframework.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="C:\Users\Chen Chen\.m2\repository" />
+        <option name="outputLevel" value="ERROR" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="C:\Users\Chen Chen\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="1dYU8fRpphhbeNbYfNrbKOFKwfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenRunHelper" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.unity.ui.test_cases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Chen Chen/Documents/workspace/unity_qa_task/src/test/resources/testng.xml">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicSearchTest.TC001_BasicSearchElementsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unity-automation-testing-task" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unity.ui.test_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="com.unity.ui.test_cases" />
+      <option name="MAIN_CLASS_NAME" value="com.unity.ui.test_cases.BasicSearchTest" />
+      <option name="METHOD_NAME" value="TC001_BasicSearchElementsDisplayed" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicSearchTest.TC001_BasicSearchElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unity-automation-testing-task" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unity.ui.test_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="com.unity.ui.test_cases" />
+      <option name="MAIN_CLASS_NAME" value="com.unity.ui.test_cases.BasicSearchTest" />
+      <option name="METHOD_NAME" value="TC001_BasicSearchElementsTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicSearchTest.TC003_SimilarMatchSearchPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unity-automation-testing-task" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unity.ui.test_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="com.unity.ui.test_cases" />
+      <option name="MAIN_CLASS_NAME" value="com.unity.ui.test_cases.BasicSearchTest" />
+      <option name="METHOD_NAME" value="TC003_SimilarMatchSearchPositiveTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicSearchTest.TC011_DestroySearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unity-automation-testing-task" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unity.ui.test_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="com.unity.ui.test_cases" />
+      <option name="MAIN_CLASS_NAME" value="com.unity.ui.test_cases.BasicSearchTest" />
+      <option name="METHOD_NAME" value="TC011_DestroySearchTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Chen Chen/Documents/workspace/unity_qa_task/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unity-automation-testing-task" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.BasicSearchTest.TC011_DestroySearchTest" />
+      <item itemvalue="TestNG.BasicSearchTest.TC001_BasicSearchElementsDisplayed" />
+      <item itemvalue="TestNG.BasicSearchTest.TC001_BasicSearchElementsTest" />
+      <item itemvalue="TestNG.BasicSearchTest.TC003_SimilarMatchSearchPositiveTest" />
+      <item itemvalue="TestNG.C:/Users/Chen Chen/Documents/workspace/unity_qa_task/src/test/resources/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Chen Chen/Documents/workspace/unity_qa_task/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.BasicSearchTest.TC003_SimilarMatchSearchPositiveTest" />
+        <item itemvalue="TestNG.BasicSearchTest.TC001_BasicSearchElementsTest" />
+        <item itemvalue="TestNG.BasicSearchTest.TC001_BasicSearchElementsDisplayed" />
+        <item itemvalue="TestNG.BasicSearchTest.TC011_DestroySearchTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23e20f87-9f3a-493d-9891-0d15077f827e" name="Default" comment="" />
+      <created>1558577547215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558577547215</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="383" width="803" height="274" key="#Notifications" timestamp="1605039527440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" width="803" height="274" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605039527440" />
+    <state x="695" y="389" width="529" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596484992197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="389" width="529" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1596484992197" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605062668294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605062668294" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596500704141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596500704141" />
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1605071173617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605071173617" />
+    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1605071173617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605071173617" />
+    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1605071173617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605071173617" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1605071173617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605071173617" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1605056130706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605056130706" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1605056130706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605056130706" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1605056130706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605056130706" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1605056130706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605056130706" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597087919950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597087919950" />
+    <state x="667" y="224" width="585" height="592" key="find.popup" timestamp="1604971272738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="224" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604971272738" />
+    <state x="342" y="181" key="new project wizard" timestamp="1605032827766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605032827766" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/unity/web/UITesting/page_object_design/modules/StartPageActions.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/unity/web/UITesting/page_object_design/test_case/StartPageTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/unity/api/PostTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/unity/ui/page_object/BasePage.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/unity/ui/test_cases/BasicSearchTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/unity/ui/test_cases/BasicSearchTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="input_amount" language="JAVA" />
+        <watch expression="driver.findElement(By.xpath(&quot;//input[contains(@name,'desiredAmount')]&quot;))" language="JAVA" />
+        <watch expression="wb_aLogout" language="JAVA" />
+        <watch expression="wb_divHeaderManu.click();" language="JAVA" />
+        <watch expression="wb_divHeaderManu" language="JAVA" />
+      </configuration>
+      <configuration name="TestNG">
+        <watch expression="driver" language="JAVA" />
+        <watch expression="((ChromeDriver) driver).findElementByXPath()" language="JAVA" custom="org.openqa.selenium.chrome.ChromeDriver" />
+        <watch expression="((ChromeDriver) driver).findElementByXPath(&quot;//input[contains(@type,'submit')]&quot;)" language="JAVA" custom="org.openqa.selenium.chrome.ChromeDriver" />
+        <watch expression="((ChromeDriver) driver).findElementsByXPath(&quot;//input[contains(@type,'submit')]&quot;)" language="JAVA" custom="org.openqa.selenium.chrome.ChromeDriver" />
+        <watch expression="driver.switchTo().frame(0)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
