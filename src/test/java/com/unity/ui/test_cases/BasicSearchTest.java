@@ -4,6 +4,7 @@ import com.unity.Const;
 import com.unity.ui.page_object.HomePage;
 import com.unity.ui.util.uitesttool;
 import junit.framework.TestCase;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
@@ -12,6 +13,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -50,8 +52,15 @@ public class BasicSearchTest extends BaseTest {
     public void TC002_BasicSearchPositiveTest() throws Exception {
 
         homePage.enterSearchText("HTC");
-        List<WebElement> listWB = homePage.getSearchResultTitleList();
-        assertEquals(2,listWB.size());
+        int numberOfResults = homePage.getSearchResultTitleList().size();
+        assertEquals(2,numberOfResults);
+
+        //Validate result match with the input
+        List<WebElement> productTitleList = homePage.getProductTitlesWebElementList(numberOfResults);
+        for(int i=0;i<productTitleList.size();i++){
+            String productTitleText = productTitleList.get(i).getText();
+            assertTrue(productTitleText.contains("HTC"));
+        }
     }
 
 

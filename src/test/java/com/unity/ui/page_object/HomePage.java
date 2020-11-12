@@ -9,7 +9,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import static junit.framework.TestCase.assertTrue;
 
 public class HomePage extends BasePage {
     WebDriverWait wait = new WebDriverWait(driver, Const.timeOutInSecs);
@@ -45,6 +48,9 @@ public class HomePage extends BasePage {
     public WebElement wb_h2HomePageTitle;
 
 
+    @FindBy(xpath="(//h2[contains(@class,'product-title')]//a)[1]")
+    public WebElement wb_h2ProductTitleFirstItem;
+
     By byProductTitleList = By.xpath("//h2[contains(@class,'product-title')]");
 
     public HomePage(WebDriver driver) {
@@ -79,5 +85,21 @@ public class HomePage extends BasePage {
 
     public String getSpanHintText(){
         return this.wb_spanSearchHintText.getText();
+    }
+
+    public String getProductTitleXpathViaIndex(String oldXpath, int index){
+        //String oldXpath = "(//h2[contains(@class,'product-title')]//a)[1]";
+        String str = "\""+ "[" + index + "]"+"\"";
+        return oldXpath.toString().replace("[1]","[" + index + "]");
+    }
+
+    public List<WebElement> getProductTitlesWebElementList(int numberOfResults){
+        List<WebElement> list = new ArrayList<>();
+        for(int i=1;i<=numberOfResults;i++){
+            String xpathStr = this.getProductTitleXpathViaIndex("(//h2[contains(@class,'product-title')]//a)[1]",i);
+            WebElement wb = driver.findElement(By.xpath(xpathStr));
+            list.add(wb);
+        }
+        return list;
     }
 }
